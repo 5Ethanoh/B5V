@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/mySpring/ex/board/controller/BoardControllerImpl.java=UTF-8
+encoding//src/main/java/com/mySpring/ex/board/vo/ArticleVO.java=UTF-8
+encoding//src/main/java/com/mySpring/ex/common/file/FileDownloadController.java=UTF-8
+encoding//src/main/java/com/mySpring/ex/common/interceptor/ViewNameInterceptor.java=UTF-8
