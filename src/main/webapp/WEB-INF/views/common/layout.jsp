@@ -19,7 +19,7 @@
         padding: 5px;
         margin-bottom: 5px;
         border: 0px solid #bcbcbc;
-         background-color: grey;
+         background-color: #76b852;
       }
       #sidebar-left {
         width: 15%;
@@ -28,7 +28,7 @@
         margin-right: 5px;
         margin-bottom: 5px;
         float: left;
-         background-color: grey;
+         background-color: #76b852;
         border: 0px solid #bcbcbc;
         font-size:10px;
       }
@@ -43,7 +43,7 @@
         clear: both;
         padding: 5px;
         border: 0px solid #bcbcbc;
-        background-color: grey;
+        background-color: #76b852;
       }
       
     </style>

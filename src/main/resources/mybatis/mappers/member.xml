@@ -24,7 +24,7 @@
 
 	<select id="selectAllMemberList" resultMap="memResult">
       <![CDATA[
-         select * from B_EMP order by id desc	 	
+         select * from B_EMP order by id asc	 	
       ]]>
 	</select>
     
@@ -59,7 +59,7 @@
 	]]>
   </select>
   
-  <select id="findMember" resultType = "com.mySpring.ex.member.vo.MemberVO" >
+  <select id="findMember" resultType = "MemberVO" >
 	<![CDATA[
 	   select from B_EMP
 	   where
