@@ -12,7 +12,7 @@
 <html>
 <head>
 <meta charset=UTF-8">
-<title>사원 정보 목록창</title>
+<title>Employee List</title>
 </head>
 <script>
 	<%--function button_event(){
@@ -36,11 +36,11 @@
 <body>
 <table border="1"  align="center"  width="80%">
     <tr align="center"  bgcolor="#76b852">
-      <td ><b>사원번호</b></td>
-      <td><b>비밀번호</b></td>
-      <td><b>이름</b></td>
-      <td><b>가입일</b></td>
-      <td><b>삭제</b></td>
+      <td ><b>Employee ID</b></td>
+      <td><b>Password</b></td>
+      <td><b>Name</b></td>
+      <td><b>Join Date</b></td>
+      <td><b>Delete</b></td>
    </tr>
     
  <c:forEach var="member" items="${membersList}" >     
@@ -50,7 +50,7 @@
       <td>${member.name}</td>
       <td>${member.joinDate}</td>
       <!-- <input type="button" value="삭제하기" onclick="button_event();"> -->
-      <td><a onclick="return confirm('정말로 삭제하시겠습니까?')" href="${contextPath}/member/removeMember.do?id=${member.id}" class="cls1"><p class="cls2">삭제하기</p></a></td>
+      <td><a onclick="return confirm('Are you sure to delete the Account?')" href="${contextPath}/member/removeMember.do?id=${member.id}" class="cls1"><p class="cls2">Delete</p></a></td>
       <!-- <a class="cls1"  href="javascript:fn_listMembers('${isLogOn}','${contextPath}/member/removeMember.do?id=${member.id}')"><p class="cls2">삭제하기</p></a> -->
     </tr>
   </c:forEach>   

@@ -13,7 +13,7 @@
 <head>
 <link href="<%=request.getContextPath()%>/resources/css/modmemberForm.css" rel="stylesheet" type="text/css">
 <title>로그인창</title>
-<title>사원 정보 수정창</title>
+<title>Edit Member</title>
 <style>
    .text_center{
      text-align:center;
@@ -22,13 +22,13 @@
 </head>
 <body>
 	<div class="mod-page">
-		<h1  class="text_center">사원 정보 수정창</h1>
+		<h1  class="text_center">Edit Member</h1>
 	<div class="form">
 	<form class="login-form" method="post"  action="${contextPath}/member/modMember.do">
 		<table>
 	   		<tr align="center">
 	      		<td><input class="form-control" type="text" id="id" name="id" placeholder="사원번호를 인증해주세요" value="${member.id}" readonly="readonly"/>
-					<input type="password" name="pwd" placeholder="패스워드를 변경해주세요" value=""/>		
+					<input type="password" name="pwd" placeholder="Password" value=""/>		
 					<input type="text" name="name" value="${member.name}"/>
 				</td>
 	    	</tr>
@@ -41,8 +41,8 @@
 	    -->
 	    <table>
 	    	<tr align="center">
-	       		<td width="200"><input type="submit" value="수정하기"/></td>
-		   		<td width="200"><input type="reset" value="다시입력"/></td>
+	       		<td width="200"><input type="submit" value="Modification"/></td>
+		   		<td width="200"><input type="reset" value="Re-enter"/></td>
 	    	</tr>
 		</table>
 	</form>

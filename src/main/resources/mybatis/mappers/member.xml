@@ -70,7 +70,7 @@
   
   <select id="CheckId" resultType = "int" >
 	<![CDATA[
-	   select count(*) from B_EMP
+	   select count(id) from B_EMPNO
 	   where
 	   id=#{id}
 	]]>      
